@@ -1,16 +1,16 @@
-// 1. Boil a cup of water
+''' 1. Boil a cup of water
       if water not properly boiled, boil again
       Transfer preferred quantity into a mug
       put in a bag of tea and stir
-// 2. Check the road if any car or motorist is approaching
+ 2. Check the road if any car or motorist is approaching
       look left, look right and look left again
      if no motorist or car is approaching then, cross
      else if motorist or car is approaching, wait until the road is free   
      then check again and repeat process
-//3. Put on a sunscreen if its not raining
+3. Put on a sunscreen if its not raining
       if it is raining
       Take an umbrella and do not put on suncreen
-  4.  Prompt the user to insert their ATM card
+4.  Prompt the user to insert their ATM card
       if user inserts the wrong side
       eject the card
       else read the information on the card
