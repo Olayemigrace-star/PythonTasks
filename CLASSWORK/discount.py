@@ -7,20 +7,20 @@ Do a 20% discount
 
 '''
 total_amount = int(input("Enter the amount of purchased items "));
-int firstdiscount = (amount - (amount * 0.05));
-int seconddiscount = (amount - (amount * 0.1));
-int thirddiscount = (amount - (amount * 0.2));
+firstdiscount = (total_amount - (total_amount * 0.05));
+seconddiscount = (total_amount - (total_amount * 0.1));
+thirddiscount = (total_amount - (total_amount * 0.2));
 
 
 if total_amount >= 1000 and total_amount <=10000:{
-print("Your prize is ", firstdiscount);
+print("Your prize is ", firstdiscount)
 } 
 
 if total_amount >= 10000 and total_amount <= 50000:{
-print("Your prize is ", seconddiscount);
+print("Your prize is ", seconddiscount)
 }
 if total_amount > 50000:{
-print("Your prize is ", thirddiscount);
+print("Your prize is ", thirddiscount)
 }
 
 
