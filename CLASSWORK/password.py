@@ -9,14 +9,14 @@ if password is greater than 16
 print very strong
 '''
 
-password = int(input(Enter your preferred Password))
-if len("") password <= 8:
-print(" The Password entered is very weak ")
-if len("") password == 8:
-print("The Password entered is Weak ")
-if len("") password > 8 and len("") password >= 16:
-print("Password entered is Strong")
-if len("") password > 16:
-print("Password entered is very Strong ")
+password = input("Enter your preferred Password ")
+if len(password) < 8:
+    print(" The Password entered is very weak ")
+if len(password) == 8:
+    print("The Password entered is Weak ")
+if len(password) > 8 and len(password) >= 16:
+    print("Password entered is Strong")
+if len(password) > 16:
+    print("Password entered is very Strong ")
 
 
